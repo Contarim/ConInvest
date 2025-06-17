@@ -75,3 +75,47 @@ body, p, .lead, li, a, button, label, input, textarea {
     font-family: 'Roboto', Arial, sans-serif;
     font-weight: 400;
 }
+
+/* Corrige a posição dos botões de controle do carrossel */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%; /* reduz a largura do botão, evitando sobreposição grande */
+    height: 100%; /* ocupa toda a altura para fácil clique */
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1; /* leve transparência para não tapar o conteúdo */
+    transition: opacity 0.3s;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 1;
+}
+
+/* Opcional: para puxar os botões um pouco para fora */
+.carousel-control-prev {
+    left: 0px;
+}
+
+.carousel-control-next {
+    right: 0px;
+}
+
+/* Em telas pequenas, não empurre muito para fora */
+@media (max-width: 768px) {
+    .carousel-control-prev {
+    left: 0;
+    }
+    .carousel-control-next {
+    right: 0;
+    }
+}
+
+/* Suaviza a transição do movimento de slide */
+.carousel-item {
+    transition: transform 0.7s ease-in-out; /* duração e tipo de transição */
+}
+
