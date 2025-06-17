@@ -1,0 +1,77 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #d1d1d18f;
+    }
+
+    .navbar, footer {
+    background-color: #003366; /* Azul escuro */
+    height: 4rem;
+    }
+
+    .navbar a,
+    footer {
+    color: #fff !important;
+    }
+
+    .btn-custom-outline {
+    border-color: #fff;
+    color: #fff;
+    }
+
+    .btn-custom-outline:hover {
+    border-color: #fff;
+    background-color: #00000070;
+    }
+
+    .btn-custom-fill {
+    border-color: #fff;
+    color: #fff;
+    }
+
+    .btn-custom-fill:hover {
+    border-color: #fff;
+    background-color: #00000070;
+    }
+
+    .container-investimento {
+    padding: 20px 0;
+    }
+
+    .investment-item {
+    margin-bottom: 20px;
+    }
+
+    section.container {
+    max-width: 800px;
+    }
+
+    section.container h1 {
+    font-weight: 700;
+    }
+
+    section.container p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.carousel-item img {
+    width: 500px;
+    height: 350px;
+    object-fit: fill;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* Fonte para títulos */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', 'Roboto', Arial, sans-serif;
+    font-weight: 700;
+}
+
+/* Fonte para parágrafos e textos gerais */
+body, p, .lead, li, a, button, label, input, textarea {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 400;
+}
