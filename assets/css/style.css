@@ -181,7 +181,7 @@ footer a:hover {
         color: #fff;
         transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     }
-  
+
     .navbar-collapse .btn:hover {
         background-color: #0059b3;
         border-color: #aaddff;
