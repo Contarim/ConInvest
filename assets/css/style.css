@@ -4,6 +4,7 @@ body {
     }
 
 .navbar, footer {
+
     background-color: #003366;
     height: 4rem;
     position: relative;
@@ -74,6 +75,7 @@ body, p, .lead, li, a, button, label, input, textarea {
     font-family: 'Roboto', Arial, sans-serif;
     font-weight: 400;
 }
+
 
 .carousel-control-prev, .carousel-control-next {
     width: 5%;
@@ -150,6 +152,7 @@ footer a:hover {
     right: 0;
     }
 
+
     .navbar-collapse {
         position: absolute; 
         top: 100%;            
@@ -178,7 +181,7 @@ footer a:hover {
         color: #fff;
         transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     }
-
+  
     .navbar-collapse .btn:hover {
         background-color: #0059b3;
         border-color: #aaddff;
