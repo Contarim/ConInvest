@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>ConInvest</title>
+  <title>ConInvest - Plataforma de Investimentos</title>
 
-  <!-- Google Fonts & Bootstrap -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Seu CSS -->
   <link rel="stylesheet" href="../assets/css/style.css">
   <link rel="icon" type="image/x-icon" href="/assets/images/logotipo.png">
 </head>
@@ -17,7 +16,7 @@
 <body>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark px-4">
-    <a class="navbar-brand fw-bold fs-3" href="#">ConInvest</a>
+    <a class="navbar-brand fw-bold" href="#" style="font-size: 28px;">ConInvest</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -30,78 +29,161 @@
   </nav>
 
   <!-- Seção Sobre a ConInvest -->
-  <section class="container py-5">
-    <h1 class="text-center mb-5">Bem-vindo à ConInvest</h1>
-    <p class="lead text-justify">
-      Na ConInvest, acreditamos que investir deve ser simples, seguro e acessível para todos. Por isso, desenvolvemos uma plataforma completa e intuitiva que coloca o poder dos investimentos ao seu alcance, seja você um investidor iniciante ou experiente.
+  <section class="container py-5 text-center">
+    <h1 class="mb-5">Bem-vindo à ConInvest</h1>
+    <p class="lead" style="text-align: justify;">
+      Na ConInvest, acreditamos que investir deve ser simples, seguro e acessível para todos. Por isso, desenvolvemos
+      uma plataforma completa e intuitiva que coloca o poder dos investimentos ao seu alcance, seja você um investidor
+      iniciante ou experiente.
     </p>
-    <p class="lead text-justify">
-      Oferecemos uma ampla gama de opções, desde investimentos em renda fixa para quem busca segurança e estabilidade até alternativas em renda variável, que possibilitam maiores retornos e diversificação. Tudo isso com transparência, tecnologia de ponta e suporte dedicado para ajudar você a tomar decisões informadas.
+    <P class="lead" style="text-align: justify;">Oferecemos uma ampla gama de opções, desde investimentos em renda fixa
+      para quem busca segurança e estabilidade até alternativas em renda variável, que possibilitam maiores retornos e
+      diversificação. Tudo isso com transparência, tecnologia de ponta e suporte dedicado para ajudar você a tomar
+      decisões informadas.
+    </P>
+    <p class="lead" style="text-align: justify;">
+      Nosso objetivo é democratizar o acesso a produtos financeiros de qualidade, eliminando barreiras e complexidades,
+      para que você possa construir um patrimônio sólido e sustentável, conquistando liberdade financeira e realizando
+      seus sonhos com confiança e segurança.
     </p>
-    <p class="lead text-justify">
-      Nosso objetivo é democratizar o acesso a produtos financeiros de qualidade, eliminando barreiras e complexidades, para que você possa construir um patrimônio sólido e sustentável, conquistando liberdade financeira e realizando seus sonhos com confiança e segurança.
-    </p>
-    <p class="lead text-justify">
-      Confira abaixo algumas das principais opções de investimento disponíveis na nossa plataforma, com informações detalhadas sobre cada uma delas. Se você está pronto para começar sua jornada de investimentos, a ConInvest é o lugar certo para você!
+    <p class="lead" style="text-align: justify;">
+      Confira abaixo algumas das principais opções de investimento disponíveis na nossa plataforma, com informações
+      detalhadas sobre cada uma delas. Se você está pronto para começar sua jornada de investimentos, a ConInvest é o
+      lugar certo para você!
     </p>
   </section>
 
   <!-- Carrossel de Investimentos -->
   <div id="investimentosCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
-      <!-- Slide Template (reutilizado para todos os itens) -->
-      <!-- Exemplo: Tesouro Direto -->
-      <div class="carousel-item active bg-success text-white py-5">
+
+      <!-- Slide: Tesouro Direto -->
+      <div class="carousel-item active bg-success text-white text-center py-5">
         <div class="container">
-          <div class="row align-items-center justify-content-center">
-            <div class="col-12 col-md-4 mb-4 mb-md-0 text-center">
-              <img src="../assets/images/tesouro_direto.png" alt="Tesouro Direto" class="img-fluid rounded shadow">
+          <div class="row align-items-start justify-content-center">
+            <div class="col-12 col-md-4 mb-4 mb-md-0">
+              <img src="../assets/images/tesouro_direto.png" alt="Tesouro Direto" class="img-fluid rounded shadow-lg">
             </div>
-            <div class="col-12 col-md-8 text-start">
-              <h2 class="fw-bold text-center mb-3">Renda Fixa</h2>
+            <div class="col-12 col-md-8 d-flex flex-column mt-0 text-white text-start">
+              <h2 class="mb-3" style="font-weight:700; text-align: center; text-align: center;">Renda Fixa</h2>
+              <br><br><br>
               <h4>Tesouro Direto</h4>
-              <p>Invista em títulos públicos garantidos pelo governo, com baixo risco e rentabilidade estável, ideal para objetivos de curto, médio ou longo prazo.</p>
+              <p style="text-align: justify;">Invista em títulos públicos garantidos pelo governo, com baixo risco e
+                rentabilidade estável, ideal para objetivos de curto, médio ou longo prazo.</p>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- Os demais slides seguem o mesmo padrão -->
-      <!-- Use o mesmo bloco abaixo mudando apenas imagem, título e descrição -->
-
-      <!-- Slide: CDB -->
-      <div class="carousel-item bg-success text-white py-5">
+      <!-- CDB -->
+      <div class="carousel-item bg-success text-white text-center py-5">
         <div class="container">
-          <div class="row align-items-center justify-content-center">
-            <div class="col-12 col-md-4 mb-4 mb-md-0 text-center">
-              <img src="../assets/images/cdb.png" alt="CDB" class="img-fluid rounded shadow">
+          <div class="row align-items-start justify-content-center">
+            <div class="col-12 col-md-4 mb-4 mb-md-0">
+              <img src="../assets/images/cdb.png" alt="CDB" class="img-fluid rounded shadow-lg">
             </div>
-            <div class="col-12 col-md-8 text-start">
-              <h2 class="fw-bold text-center mb-3">Renda Fixa</h2>
+            <div class="col-12 col-md-8 d-flex flex-column mt-0 text-white text-start">
+              <h2 class="mb-3" style="font-weight:700; text-align: center;">Renda Fixa</h2>
+              <br><br><br>
               <h4>CDB (Certificado de Depósito Bancário)</h4>
-              <p>Rentabilidade garantida e segurança de um título emitido por bancos. Escolha entre taxas fixas ou pós-fixadas conforme o seu perfil.</p>
+              <p style="text-align: justify;">Rentabilidade garantida e segurança de um título emitido por bancos.
+                Escolha entre taxas fixas ou pós-fixadas conforme o seu perfil.</p>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- Repita para LCI, LCA, Ações, Fundos Imobiliários, Criptomoedas -->
-
-      <!-- Slide: Criptomoedas (último exemplo) -->
-      <div class="carousel-item bg-success text-white py-5">
+      <!-- LCI -->
+      <div class="carousel-item bg-success text-white text-center py-5">
         <div class="container">
-          <div class="row align-items-center justify-content-center">
-            <div class="col-12 col-md-4 mb-4 mb-md-0 text-center">
-              <img src="/assets/images/criptomoeda.jpg" alt="Criptomoedas" class="img-fluid rounded shadow">
+          <div class="row align-items-start justify-content-center">
+            <div class="col-12 col-md-4 mb-4 mb-md-0">
+              <img src="/assets/images/lci.png" alt="LCI" class="img-fluid rounded shadow-lg">
             </div>
-            <div class="col-12 col-md-8 text-start">
-              <h2 class="fw-bold text-center mb-3">Renda Variável</h2>
-              <h4>Criptomoedas</h4>
-              <p>Negocie ativos digitais inovadores com alta liquidez e oportunidades de ganhos. Diversifique sua carteira com tecnologia blockchain.</p>
+            <div class="col-12 col-md-8 d-flex flex-column mt-0 text-white text-start">
+              <h2 class="mb-3" style="font-weight:700; text-align: center;">Renda Fixa</h2>
+              <br><br><br>
+              <h4>LCI (Letra de Crédito Imobiliário)</h4>
+              <p style="text-align: justify;">Aplicação isenta de Imposto de Renda para pessoa física, lastreada em
+                créditos imobiliários. Uma forma segura de diversificar e economizar nos impostos.</p>
             </div>
           </div>
         </div>
       </div>
+
+      <!-- LCA -->
+      <div class="carousel-item bg-success text-white text-center py-5">
+        <div class="container">
+          <div class="row align-items-start justify-content-center">
+            <div class="col-12 col-md-4 mb-4 mb-md-0">
+              <img src="/assets/images/lca.png" alt="LCA" class="img-fluid rounded shadow-lg">
+            </div>
+            <div class="col-12 col-md-8 d-flex flex-column mt-0 text-white text-start">
+              <h2 class="mb-3" style="font-weight:700; text-align: center;">Renda Fixa</h2>
+              <br><br><br>
+              <h4>LCA (Letra de Crédito do Agronegócio)</h4>
+              <p style="text-align: justify;">Semelhante à LCI, mas voltada ao agronegócio, também com isenção de IR
+                para pessoa física. Diversifique com segurança e benefícios fiscais.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ações -->
+      <div class="carousel-item bg-success text-white text-center py-5">
+        <div class="container">
+          <div class="row align-items-start justify-content-center">
+            <div class="col-12 col-md-4 mb-4 mb-md-0">
+              <img src="/assets/images/acoes.jpg" alt="Ações" class="img-fluid rounded shadow-lg">
+            </div>
+            <div class="col-12 col-md-8 d-flex flex-column mt-0 text-white text-start">
+              <h2 class="mb-3" style="font-weight:700; text-align: center;">Renda Variável</h2>
+              <br><br><br>
+              <h4>Ações</h4>
+              <p style="text-align: justify;">Seja sócio de grandes empresas e participe do crescimento delas, com
+                potencial de valorização de capital e recebimento de dividendos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fundos Imobiliários -->
+      <div class="carousel-item bg-success text-white text-center py-5">
+        <div class="container">
+          <div class="row align-items-start justify-content-center">
+            <div class="col-12 col-md-4 mb-4 mb-md-0">
+              <img src="/assets/images/fundos_imobiliarios.jpg" alt="Fundos Imobiliários"
+                class="img-fluid rounded shadow-lg">
+            </div>
+            <div class="col-12 col-md-8 d-flex flex-column mt-0 text-white text-start">
+              <h2 class="mb-3" style="font-weight:700; text-align: center;">Renda Variável</h2>
+              <br><br><br>
+              <h4>Fundos Imobiliários</h4>
+              <p style="text-align: justify;">Invista em imóveis sem precisar comprá-los. Receba rendimentos mensais de
+                aluguéis e aproveite a valorização do mercado imobiliário.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Criptomoedas -->
+      <div class="carousel-item bg-success text-white text-center py-5">
+        <div class="container">
+          <div class="row align-items-start justify-content-center">
+            <div class="col-12 col-md-4 mb-4 mb-md-0">
+              <img src="/assets/images/criptomoeda.jpg" alt="Criptomoedas" class="img-fluid rounded shadow-lg">
+            </div>
+            <div class="col-12 col-md-8 d-flex flex-column mt-0 text-white text-start">
+              <h2 class="mb-3" style="font-weight:700; text-align: center;">Renda Variável</h2>
+              <br><br><br>
+              <h4>Criptomoedas</h4>
+              <p style="text-align: justify;">Negocie ativos digitais inovadores com alta liquidez e oportunidades de
+                ganhos. Diversifique sua carteira com tecnologia blockchain.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
 
     <!-- Controles -->
@@ -115,34 +197,51 @@
     </button>
   </div>
 
-  <!-- Seção Investimentos em Alta 2025 -->
-  <section class="container my-4">
-    <h2 class="fw-bold text-center mb-4">Investimentos Promissores para 2025</h2>
+  <!-- Seção Investimentos em Alta 2024 -->
+  <section class="container my-4 mb-2">
+    <h2 class="fw-bold text-center">Investimentos Promissores para 2025</h2>
     <p class="lead text-justify">
       Em 2025, alguns ativos chamam atenção por sua performance e potencial de crescimento. Veja os principais:
     </p>
-    <ul class="list-group list-group-flush mb-4 py-2">
-      <li class="list-group-item"><strong>Fundos Imobiliários (FIIs)</strong> — O IFIX atingiu recorde histórico em maio/2025, impulsionado por queda de juros e aumento da demanda por renda passiva.</li>
-      <li class="list-group-item"><strong>Renda Fixa</strong> — Tesouro IPCA+, CDBs, LCIs/LCAs seguem atrativos com juros elevados.</li>
-      <li class="list-group-item"><strong>Ações estratégicas</strong> — Empresas como Embraer se destacam pela forte rentabilidade de 2024.</li>
-      <li class="list-group-item"><strong>Criptomoedas consolidadas</strong> — Bitcoin e Ethereum continuam liderando com alto potencial de valorização.</li>
+    <ul class="list-group list-group-flush mb-3">
+      <li class="list-group-item">
+        <strong>Fundos Imobiliários (FIIs)</strong> — O IFIX atingiu seu recorde histórico em maio/2025, impulsionado
+        por queda de juros e aumento da demanda por renda passiva.
+      </li>
+      <li class="list-group-item">
+        <strong>Renda Fixa (Tesouro IPCA+, CDBs, LCIs/LCAs)</strong> — Ainda são atrativas com juros elevados, incluindo
+        CDBs com até 15,1% a.a. e IPCA+9,3% conforme XP.
+      </li>
+      <li class="list-group-item">
+        <strong>Ações de setores estratégicos</strong> — Mesmo em cenário cauteloso, analistas destacam empresas como
+        Embraer, potencializadas pela forte rentabilidade de 2024.
+      </li>
+      <li class="list-group-item">
+        <strong>Criptomoedas consolidadas (BTC, ETH)</strong> — Bitcoin registra alta acumulada com compras
+        institucionais e Ethereum lidera o ecossistema DeFi com potencial de valorização.
+      </li>
     </ul>
     <p class="text-muted small">
-      <strong>Fontes:</strong> 
-      <a href="https://www.infomoney.com.br/onde-investir/renda-fixa-hoje-16062025" target="_blank">InfoMoney</a>, 
-      <a href="https://exame.com/mercado-imobiliario/a-virada-dos-fiis-por-que-2025-e-o-ano-da-maturidade-para-os-fundos-imobiliarios" target="_blank">Exame</a>, 
-      <a href="https://www.mb.com.br/economia-digital/criptomoedas/criptomoedas-promissoras/" target="_blank">MoneyLab/MB</a>.
+      <strong>Fontes:</strong>
+      <a href="https://www.infomoney.com.br/onde-investir/renda-fixa-hoje-16062025" target="_blank">InfoMoney</a>,
+      <a href="https://exame.com/mercado-imobiliario/a-virada-dos-fiis-por-que-2025-e-o-ano-da-maturidade-para-os-fundos-imobiliarios"
+        target="_blank">Exame</a>,
+      <a href="https://www.mb.com.br/economia-digital/criptomoedas/criptomoedas-promissoras/"
+        target="_blank">MoneyLab/MB</a>.
     </p>
   </section>
 
+
   <!-- Rodapé -->
-  <footer class="text-center text-white py-2 bg-dark">
+  <footer class="text-center text-white">
     <div class="container">
-      <p class="mb-0 fw-bold">ConInvest © 2025 - Todos os direitos reservados</p>
+      <p class="mb-1 fw-bold">ConInvest © 2025 - Todos os direitos reservados</p>
       <p class="mb-0">Contato: suporte@coninvest.com.br</p>
     </div>
   </footer>
-  <!-- Bootstrap Bundle -->
+
+  <!-- Bootstrap JS Bundle -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
